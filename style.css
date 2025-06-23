@@ -29,4 +29,36 @@ button {
 canvas {
   margin-top: 20px;
   border: 1px solid #ccc;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------------------- */
+/* ✅ MEDIA QUERIES BELOW */
+/* ---------------------- */
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  input {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
 }
